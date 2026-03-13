@@ -1,12 +1,23 @@
 # whit-ziji-skills
 
-一个面向多 agent 的开源日记 skills 仓库，用于统一管理、整理和适配 journaling 相关能力。
+一个面向个人成长场景的开源日记 skills 仓库，用于统一整理和沉淀与日记、反思、复盘相关的 AI 能力。
 
 ## 项目目标
 
-这个项目把 GitHub 仓库作为日记 skills 的唯一真源。
+`whit-ziji-skills` 的出发点很简单：用AI记日记的方式，帮助个人成长
 
-不是在 Codex、Claude、OpenClaw 等多个 agent 里分别维护 prompt 或 workflow，而是先在仓库中定义一份规范化 skill，再通过轻量适配层映射到不同运行环境。
+曾国藩通过日记和“修身十二条”长期自我监督，核心方法就是“每天记录，每天反省，每天改一点点”。蒋把日记进一步发展成一套复盘系统，不只有每日记录，也有每周、每月、每年的反省，并按不同主题持续整理。
+
+这些方法放到今天依然成立。不同的是，在 AI 时代，我们可以借助 AI 让这套过程更稳定、更结构化、更容易坚持。例如：
+
+- 根据模板生成每日日记和 checklist
+- 自动补充天气、睡眠等结构化信息
+- 从日记中整理周记、月记、年记
+- 提取行动项、反思点和阶段性主题
+
+但这个项目有一个明确前提：**AI 只是辅助工具，个人成长真正关键的仍然是持续反思与行动。**
+
+这个仓库不是一个零散 prompt 的集合，而是一个面向多 agent 的 journaling skill registry。它把 GitHub 仓库作为唯一真源，在仓库中定义规范化 skill，再通过轻量适配层映射到 Codex、Claude、OpenClaw等不同环境。
 
 ## 项目范围
 
@@ -50,7 +61,7 @@ whit-ziji-skills/
 
 `docs/skills-spec.md`
 
-核心要求是：
+核心要求：
 
 - 每个 skill 都有独立目录
 - 每个 skill 都有标准化的 `skill.yaml` 和 `SKILL.md`
@@ -69,7 +80,7 @@ whit-ziji-skills/
 
 这样可以避免不同 agent 中长期出现内容漂移。
 
-## 后续新增 Skill 的整理方式
+## 新 Skill 的整理方式
 
 后面你发送原始 skill 时，会按照以下方式整理：
 
@@ -88,6 +99,3 @@ whit-ziji-skills/
 - 已完善 README
 - 具体 skills 将逐步补充
 
-## 下一步
-
-你可以直接发送第一个原始 skill，我会按照 `docs/skills-spec.md` 的规则整理成统一格式。
