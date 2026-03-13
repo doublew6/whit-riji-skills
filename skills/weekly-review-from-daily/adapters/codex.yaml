@@ -1,0 +1,13 @@
+agent: codex
+status: partial
+entry: ../SKILL.md
+install:
+  mode: manual
+invoke:
+  triggers:
+    - 帮我根据日记写周记
+    - generate weekly review from daily notes
+notes:
+  - 核心流程与主 skill 保持一致。
+  - 若目标环境支持文件引用，可附加来源文件路径或笔记标识。
+  - 若目标环境不支持 wikilink，则使用普通文本来源说明替代。

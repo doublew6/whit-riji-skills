@@ -1,0 +1,14 @@
+cases:
+  - name: complete-week
+    expect:
+      - 保留模板结构
+      - 输出关键进展
+      - 输出反思
+      - 不编造缺失信息
+  - name: incomplete-week
+    expect:
+      - 明确标记数据未闭合
+      - 对缺失字段保守处理
+  - name: conflicting-fitness-evidence
+    expect:
+      - 优先使用专门健身记录

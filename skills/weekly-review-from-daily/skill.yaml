@@ -1,0 +1,32 @@
+id: weekly-review-from-daily
+name: 从日记生成周记
+version: 0.1.0
+category: review
+entry: SKILL.md
+description: 基于一周内的日记记录和周记模板，生成可追溯、可审查的周记草稿。
+tags:
+  - weekly-review
+  - journal
+  - diary
+  - obsidian
+  - reflection
+inputs:
+  - daily_notes
+  - weekly_template
+  - fitness_logs
+  - week_range
+outputs:
+  - weekly_review_draft
+  - evidence_links
+compatibility:
+  codex: partial
+  claude: supported
+  openclaw: planned
+triggers:
+  - 把这周日记整理成周记
+  - 根据日记生成周复盘
+  - 帮我写本周周记
+  - generate weekly review from daily notes
+dependencies: []
+author: whit-ziji-skills
+license: MIT

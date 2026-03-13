@@ -1,0 +1,13 @@
+agent: claude
+status: supported
+entry: ../SKILL.md
+install:
+  mode: manual
+invoke:
+  triggers:
+    - 把这周日记整理成周记
+    - 根据日记生成周复盘
+notes:
+  - 可结合 Obsidian 仓库中的周记模板使用。
+  - 对关键结论可使用 Obsidian wikilink 形式保留来源，如 [[...]]。
+  - 若存在独立健身记录，优先使用健身记录作为运动证据。
