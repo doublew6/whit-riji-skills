@@ -1,0 +1,23 @@
+id: riji-daily-weather
+name: 每日天气填写
+version: 0.1.0
+category: riji
+entry: SKILL.md
+description: 每天自动读取日记中的位置信息，获取当地天气并填入日记。
+tags:
+  - riji
+  - weather
+  - obsidian
+  - automation
+inputs:
+  - diary_date
+outputs:
+  - weather_info
+compatibility:
+  openclaw: supported
+triggers:
+  - 填入天气
+  - 更新天气
+dependencies: []
+author: whit-ziji-skills
+license: MIT

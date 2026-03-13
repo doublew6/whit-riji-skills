@@ -1,0 +1,25 @@
+id: riji-daily-generator
+name: 每日日记生成
+version: 0.1.0
+category: riji
+entry: SKILL.md
+description: 每天自动生成日记模板文件，基于模板替换日期变量。
+tags:
+  - riji
+  - daily
+  - obsidian
+  - automation
+inputs:
+  - vault_path
+  - template_path
+outputs:
+  - generated_file_path
+compatibility:
+  openclaw: supported
+triggers:
+  - 生成日记
+  - 创建日记模板
+dependencies:
+  - generate-lifeos-daily.sh
+author: whit-ziji-skills
+license: MIT
