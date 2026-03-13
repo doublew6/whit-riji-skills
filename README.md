@@ -80,9 +80,9 @@ whit-ziji-skills/
 
 这样可以避免不同 agent 中长期出现内容漂移。
 
-## 新 Skill 的整理方式
+## Skill 标准化流程
 
-后面你发送原始 skill 时，会按照以下方式整理：
+新的 skill 进入本仓库时，统一按照以下流程整理：
 
 1. 提取稳定、通用、agent 无关的核心能力
 2. 生成清晰的 kebab-case skill 目录名
@@ -98,4 +98,3 @@ whit-ziji-skills/
 - 已建立规范文档
 - 已完善 README
 - 具体 skills 将逐步补充
-
