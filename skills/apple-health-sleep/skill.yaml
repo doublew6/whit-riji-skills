@@ -1,0 +1,22 @@
+id: apple-health-sleep
+name: Apple Health 睡眠数据同步
+version: 0.1.0
+category: riji
+entry: SKILL.md
+description: 每天自动读取 Apple Health 睡眠数据并填入 riji daily 日记的 Sleep Record 部分。
+tags:
+  - riji
+  - apple-health
+  - sleep
+  - obsidian
+  - automation
+inputs: []
+outputs: []
+compatibility:
+  openclaw: supported
+triggers:
+  - 同步睡眠数据
+  - Apple Health 睡眠
+dependencies: []
+author: whit-ziji-skills
+license: MIT
