@@ -1,4 +1,4 @@
-# whit-ziji-skills
+# whit-riji-skills
 
 一个面向个人成长场景的开源日记 skills 仓库，用于统一整理和沉淀与日记、反思、复盘相关的 AI 能力。
 
