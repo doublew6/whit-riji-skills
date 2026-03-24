@@ -20,6 +20,8 @@
 汇总所有符合条件的时间条目，计算总时长。
 
 ### 4. 写入日记
+**⚠️ 注意：是 Obsidian 的 riji/daily 日记，不是 memory 文件夹！**
+
 写入到 riji daily 日记的 Evening 部分：
 
 路径：`~/Library/Mobile Documents/iCloud~md~obsidian/Documents/riji/daily/YYYY-MM-DD.md`

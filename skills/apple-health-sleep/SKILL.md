@@ -25,6 +25,8 @@
 - Awake（清醒时间）
 
 ### 3. 写入 riji daily 日记
+**⚠️ 注意：是 Obsidian 的 riji/daily 日记，不是 memory 文件夹！**
+
 找到 `### 🛏 Sleep Record` 部分，填写以下字段：
 ```
 - Total Sleep: {总睡眠时间}
