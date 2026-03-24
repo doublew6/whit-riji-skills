@@ -1,0 +1,22 @@
+id: ticktick-tasks
+name: 滴答清单 TickTick 未完成任务同步
+version: 0.1.0
+category: riji
+entry: SKILL.md
+description: 登录滴答清单 (dida365.com) 获取今天未完成的任务并写入日记。
+tags:
+  - riji
+  - ticktick
+  - dida365
+  - tasks
+  - automation
+inputs: []
+outputs: []
+compatibility:
+  openclaw: supported
+triggers:
+  - TickTick 未完成
+  - 滴答清单任务
+dependencies: []
+author: whit-ziji-skills
+license: MIT

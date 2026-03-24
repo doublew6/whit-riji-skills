@@ -1,0 +1,22 @@
+id: toggl-deepwork
+name: Toggl Track Deep Work 时间统计
+version: 0.1.0
+category: riji
+entry: SKILL.md
+description: 登录 Toggl Track 获取今天的 Deep Work 时间并写入日记。
+tags:
+  - riji
+  - toggl
+  - deepwork
+  - time-tracking
+  - automation
+inputs: []
+outputs: []
+compatibility:
+  openclaw: supported
+triggers:
+  - Toggl Deep Work
+  - 统计 Deep Work
+dependencies: []
+author: whit-ziji-skills
+license: MIT
